@@ -1,0 +1,16 @@
+*.pyc
+*.asv
+*.aux
+*.log
+*.out
+*.bin
+*.temp
+*.gz
+*.tar
+*.zip
+*.rar
+*.7z
+*.mp4
+*.db
+*.png
+*.pdf
