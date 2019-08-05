@@ -9,7 +9,6 @@ function s = settings()
     
     % Timing parameters. t = 0, 1, 2, ... is 0000hr on 01-Jan:
     s.nt = 2*365;  % no. of time steps per year [int] (-> dt = (365/nt) days)
-    s.t_spinup = 0;  % time in years at which to start saving data [int]
     s.t_total = 15;  % total integration time in whole number of years [int]
     s.ns = 10;  % no. of time steps between saved data [int].
                 % NB. nt/ns must be an integer
