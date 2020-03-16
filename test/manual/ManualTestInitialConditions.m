@@ -5,10 +5,7 @@ function [Ta0, Tml0, Ts0, Hi0] = ManualTestInitialConditions()
 % --Args--
 % None. Uses current parameters and settings in parameters.m and settings.m
 % respectively.
-%
-% --Returns--
-% The initial conditions arrays Ta0, Tml0, Ts0 and Hi0 (in this order), and
-% displays a plot of them.
+% 
 % -------------------------------------------------------------------------
     
     addpath(['..' filesep '..']);

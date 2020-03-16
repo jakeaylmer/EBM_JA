@@ -1,4 +1,4 @@
-function results = UnitTests()
+function results = EBMUnitTests()
 % UNITTESTS Run all unit tests.
 % -------------------------------------------------------------------------
 
