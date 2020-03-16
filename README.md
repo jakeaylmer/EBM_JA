@@ -14,9 +14,9 @@ There are three files which the user should edit, in the 'bin' directory:
 - run_ebm.m: as the name implies, this script runs the EBM with the specified parameters and settings.
 
 ### settings.m
-The grid resolution must be specified in terms of the number of grid points (`nphi`) (which includes 0 and 90 degrees latitude). Similarly the time step (`nt`) must be specified in terms of the number of time intervals in 1 year. The total integration time `t_total` must be given as an integer number of years.
+The grid resolution must be specified in terms of the number of grid points (`nphi`) (which includes 0 and 90 degrees latitude). Similarly the time step must be specified in terms of the number of time intervals in 1 year (`nt`) . The total integration time `t_total` must be given as an integer number of years.
 
-It is usually not necessary to save data at every time step. The frequency of saving is specified with `ns`, which is the number of time steps between saved-data points. It is important that `nt/ns` is an integer.
+It is usually not necessary to save data at every time step. The frequency of saving is specified with `ns`, which is the number of time steps between saved-data points. It is required that `nt/ns` is an integer.
 
 `ic_file` and `ic_subdir` specify the filename and subdirectory (of 'data'), respectively, for the data for which initial conditions should be generated from.
 
@@ -24,7 +24,7 @@ It is usually not necessary to save data at every time step. The frequency of sa
 
 ### run_ebm.m
 
-this is the script which should be called from the command line, with 2 or 3 arguments. The first two arguments give the filename and directory name for data files to be saved to. An additional argument of 1 may be used to specify that saved initial conditions are to be used. For example:
+This is the script which should be called from the command line, with 2 or 3 arguments. The first two arguments give the filename and directory name for data files to be saved to. An additional argument of 1 may be used to specify that saved initial conditions are to be used. For example:
 
 `run_ebm('my_ebm_data', 'my_directory');`
 
