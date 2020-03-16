@@ -40,4 +40,7 @@ At the end of each model run, two files are saved: one contains the prognostic-v
 Prognostic variable data is in the format such that each row corresponds to one time, e.g. `Ta(1,:)` is the air temperature profile at initial conditions. Parameters are saved as a struct (similar to a Python dictionary).
 
 ## Code testing
-Some unit tests are provided in the 'test\unit_test' directory, which may be run in the command line by calling the script UnitTests.m. A manual test of the initial conditions generator function is also included, in 'test\manual\ManualTestInitialConditions.m'. 
+Some unit tests are provided in the 'test\unit_test' directory, which may be run in the command line by calling the script UnitTests.m. A manual test of the initial conditions generator function is also included, in 'test\manual\ManualTestInitialConditions.m'.
+
+## References
+Aylmer, J., D. Ferreira, and D. Feltham, 2020: Impacts of oceanic and atmospheric heat transports on sea-ice extent. _Journal of Climate (in review)_.
