@@ -1,4 +1,4 @@
-# EBM_JA_2019
+# EBM_JA
 Energy-Balance Model for exploring processes driving the latitude of the sea-ice edge.
 
 ## Overview
