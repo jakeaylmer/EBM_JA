@@ -2,7 +2,9 @@
 Energy-Balance Model for exploring processes driving the latitude of the sea-ice edge.
 
 ## Overview
-This repository contains MATLAB source code for running simulations in the Energy-Balance Model (EBM) described by _Aylmer et al. (in review)_.
+This repository contains MATLAB source code for running simulations in the Energy-Balance Model (EBM) described by _Aylmer et al. (2020)_.
+
+Commit ID at the time of submission: a007fa1 (but note that no changes have been made to the code, except documentation, since this was used to generate the results presented in our paper).
 
 ## Requirements
 This code has been tested on Windows 7 using MATLAB R2018a and on Linux using MATLAB R2017b. There is no guarantee it will run as intended on other operating systems or with other versions of MATLAB.
@@ -43,4 +45,4 @@ Prognostic variable data is in the format such that each row corresponds to one 
 Some unit tests are provided in the 'test\unit_test' directory, which may be run in the command line by calling the script UnitTests.m. A manual test of the initial conditions generator function is also included, in 'test\manual\ManualTestInitialConditions.m'.
 
 ## References
-Aylmer, J., D. Ferreira, and D. Feltham, 2020: Impacts of oceanic and atmospheric heat transports on sea-ice extent. _Journal of Climate (in review)_.
+Aylmer, J. R., D. G. Ferreira, and D. L. Feltham, 2020: Impacts of Oceanic and Atmospheric Heat Transports on Sea Ice Extent. _Journal of Climate_, in press, doi:10.1175/JCLI-D-19-0761.1
