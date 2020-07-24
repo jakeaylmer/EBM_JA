@@ -45,4 +45,4 @@ Prognostic variable data is in the format such that each row corresponds to one 
 Some unit tests are provided in the 'test\unit_test' directory, which may be run in the command line by calling the script UnitTests.m. A manual test of the initial conditions generator function is also included, in 'test\manual\ManualTestInitialConditions.m'.
 
 ## References
-Aylmer, J. R., D. G. Ferreira, and D. L. Feltham, 2020: Impacts of Oceanic and Atmospheric Heat Transports on Sea Ice Extent. _Journal of Climate_, in press, doi:10.1175/JCLI-D-19-0761.1
+Aylmer, J. R., D. G. Ferreira, and D. L. Feltham, 2020: Impacts of oceanic and atmospheric heat transports on sea ice extent. _J. Climate_, __33__(16), 7197–7215, doi:10.1175/JCLI-D-19-0761.1
